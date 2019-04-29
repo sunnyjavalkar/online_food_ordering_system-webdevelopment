@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>Login Page</title>
+<script type="text/javascript" src="Login validate.js"></script>
+<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body id="cold">
+	<h1>login</h1>
+  
+<form action="HomePage.html" name="Login" onsubmit="return(validate());">
+
+<label>First name:<input type="text" placeholder="john" required></label>
+	<label>last name:<input type="text" placeholder="shith" required></label><br>
+	<label>Email:<input type="Email" placeholder="abc@___.com" required></label>
+	
+	<td>State</td>
+<td><select Name="State">
+<option value="-1" selected>select..</option>
+<option value="ANDHRA PRADESH">ANDHRA PRADESH</option>
+<option value="GUJARAT">GUJARAT</option>
+<option value="KARNATAKA">KARNATAKA</option>
+<option value="PUNJAB">PUNJAB</option>
+<option value="MAHARASHTRA">MAHARASHTRA</option>
+<option value="GOA">GOA</option>
+</select></td>
+</tr>
+
+<tr>
+<td>City</td>
+<td><select name="City">
+<option value="-1" selected>select..</option>
+<option value="HYDERABAD">HYDERABAD</option>
+<option value="GANDHINAGAR">GANDHINAGAR</option>
+<option value="BANGALORE">BANGALORE</option>
+<option value="CHANDIGARH">CHANDIGARH</option>
+<option value="MUMBAI">MUMBAI</option>
+<option value="PANAJI">PANAJI</option>
+</select></td><br>
+<label>pincode<input type="text"placeholder="590001" required></label>
+<label>mobile number<input type="text"placeholder="0123456789" required></label><br>
+</tr>
+<label id="sunny">I agree on terms and conditions:<input type="checkbox" required=""></label>
+<button>Submit</button><br>
+</form>
+<a href="HomePage.html"><button>login as guest</button></a>
+</body>
+</html>
